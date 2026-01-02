@@ -156,11 +156,11 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-white/30 text-xs font-medium">© 2024 Neel Technologies. All Rights Reserved.</p>
-          <div className="flex gap-8 text-white/30 text-xs font-medium">
+          {/* <div className="flex gap-8 text-white/30 text-xs font-medium">
             <a href="#contact" onClick={(e) => handleScrollTo(e, 'contact')} className="hover:text-white">Privacy Policy</a>
             <a href="#contact" onClick={(e) => handleScrollTo(e, 'contact')} className="hover:text-white">Terms of Service</a>
             <a href="#contact" onClick={(e) => handleScrollTo(e, 'contact')} className="hover:text-white">Refund Policy</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
